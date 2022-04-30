@@ -8,6 +8,8 @@
 #ifndef BOOST_GIL_EXTENSION_IO_PNG_DETAIL_SUPPORTED_TYPES_HPP
 #define BOOST_GIL_EXTENSION_IO_PNG_DETAIL_SUPPORTED_TYPES_HPP
 
+// TODO ml missing includes
+
 #include <boost/gil/extension/io/png/tags.hpp>
 
 #ifdef BOOST_GIL_IO_ENABLE_GRAY_ALPHA
@@ -15,6 +17,7 @@
 #endif // BOOST_GIL_IO_ENABLE_GRAY_ALPHA
 
 #include <cstddef>
+#include <cstdint>
 #include <type_traits>
 
 namespace boost { namespace gil { namespace detail {

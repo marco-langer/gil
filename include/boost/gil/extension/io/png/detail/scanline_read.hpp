@@ -8,15 +8,12 @@
 #ifndef BOOST_GIL_EXTENSION_IO_PNG_DETAIL_SCANLINE_READ_HPP
 #define BOOST_GIL_EXTENSION_IO_PNG_DETAIL_SCANLINE_READ_HPP
 
-#include <boost/gil/extension/io/png/detail/is_allowed.hpp>
+#include <boost/gil/extension/io/png/tags.hpp>
 #include <boost/gil/extension/io/png/detail/reader_backend.hpp>
 
-#include <boost/gil.hpp> // FIXME: Include what you use!
 #include <boost/gil/io/base.hpp>
-#include <boost/gil/io/conversion_policies.hpp>
+#include <boost/gil/io/error.hpp>
 #include <boost/gil/io/device.hpp>
-#include <boost/gil/io/reader_base.hpp>
-#include <boost/gil/io/row_buffer_helper.hpp>
 #include <boost/gil/io/scanline_read_iterator.hpp>
 #include <boost/gil/io/typedefs.hpp>
 

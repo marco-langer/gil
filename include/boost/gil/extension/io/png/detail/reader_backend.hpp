@@ -8,6 +8,11 @@
 #ifndef BOOST_GIL_EXTENSION_IO_DETAIL_READER_BACKEND_HPP
 #define BOOST_GIL_EXTENSION_IO_DETAIL_READER_BACKEND_HPP
 
+// TODO ml missing includes
+
+#include <boost/gil/io/base.hpp> // reader_backend
+#include <boost/gil/io/error.hpp> // io_error_if
+
 #include <boost/gil/extension/io/png/tags.hpp>
 #include <boost/gil/extension/io/png/detail/base.hpp>
 #include <boost/gil/extension/io/png/detail/supported_types.hpp>

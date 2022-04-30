@@ -10,8 +10,6 @@
 
 #include <boost/gil/extension/io/png/tags.hpp>
 
-#include <boost/assert.hpp>
-
 #include <memory>
 
 namespace boost { namespace gil { namespace detail {

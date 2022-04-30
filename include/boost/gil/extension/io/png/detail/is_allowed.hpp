@@ -8,7 +8,11 @@
 #ifndef BOOST_GIL_EXTENSION_IO_PNG_DETAIL_IS_ALLOWED_HPP
 #define BOOST_GIL_EXTENSION_IO_PNG_DETAIL_IS_ALLOWED_HPP
 
+#include <boost/gil/channel.hpp>
+#include <boost/gil/channel_algorithm.hpp>
+#include <boost/gil/pixel.hpp>
 #include <boost/gil/extension/io/png/tags.hpp>
+#include <boost/gil/extension/toolbox/metafunctions/get_pixel_type.hpp>
 
 #include <type_traits>
 

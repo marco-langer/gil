@@ -8,9 +8,11 @@
 #ifndef BOOST_GIL_EXTENSION_IO_JPEG_DETAIL_READ_HPP
 #define BOOST_GIL_EXTENSION_IO_JPEG_DETAIL_READ_HPP
 
+#include <boost/gil/extension/dynamic_image/any_image.hpp>
 #include <boost/gil/extension/io/jpeg/tags.hpp>
 #include <boost/gil/extension/io/jpeg/detail/base.hpp>
 #include <boost/gil/extension/io/jpeg/detail/is_allowed.hpp>
+#include <boost/gil/extension/toolbox/metafunctions/get_pixel_type.hpp>
 
 #include <boost/gil/io/detail/dynamic.hpp>
 #include <boost/gil/io/base.hpp>

@@ -8,11 +8,16 @@
 #ifndef BOOST_GIL_EXTENSION_IO_PNG_DETAIL_READ_HPP
 #define BOOST_GIL_EXTENSION_IO_PNG_DETAIL_READ_HPP
 
-#include <boost/gil/extension/io/png/tags.hpp>
-#include <boost/gil/extension/io/png/detail/reader_backend.hpp>
-#include <boost/gil/extension/io/png/detail/is_allowed.hpp>
+// TODO ml missing includes
 
-#include <boost/gil.hpp> // FIXME: Include what you use!
+#include <boost/gil/typedefs.hpp>
+
+#include <boost/gil/extension/dynamic_image/any_image.hpp>
+#include <boost/gil/extension/io/png/tags.hpp>
+#include <boost/gil/extension/io/png/detail/is_allowed.hpp>
+#include <boost/gil/extension/io/png/detail/reader_backend.hpp>
+#include <boost/gil/extension/toolbox/metafunctions/get_pixel_type.hpp>
+
 #include <boost/gil/io/detail/dynamic.hpp>
 #include <boost/gil/io/base.hpp>
 #include <boost/gil/io/conversion_policies.hpp>
@@ -22,6 +27,8 @@
 #include <boost/gil/io/row_buffer_helper.hpp>
 #include <boost/gil/io/typedefs.hpp>
 
+#include <csetjmp>
+#include <cstddef>
 #include <type_traits>
 
 namespace boost { namespace gil {
